@@ -1,0 +1,99 @@
+{
+  "id": "foundry-fe2",
+  "authors": [{
+    "id": "jkknorr",
+    "name": "Josh Knorr",
+    "discord": "@Rogue Leader",
+    "url": "https://foundryvtt.com"
+  }],
+  "compatibility": {
+    "minimum": 13,
+    "verified": 14,
+    "maximum": 14
+  },
+  "description": "Fragged Empire 2E system for FoundryVTT",
+  "download": "https://github.com/jkknorr/foundry-fe2/releases/download/1.16/foundry-fe2.zip",
+  "esmodules": [
+    "modules/fragged-empire-main.js"
+  ],
+  "grid": {
+    "distance": 5,
+    "units": "m"
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    }
+  ],
+  "manifest": "https://github.com/jkknorr/foundry-fe2/releases/download/1.16/system.json",
+  "packs": [
+    {
+      "entity": "Item",
+      "label": "Skills",
+      "name": "skills",
+      "path": "./packs/skills.db",
+      "system": "foundry-fe2",
+      "tags": [
+        "skill"
+      ],
+      "type": "Item"
+    },
+    {
+      "label": "Fragged Empire 2 Tables",
+      "name": "Fragged-Empire-2-Tables",
+      "path": "./packs/fragged-empire-2-tables",
+      "system": "foundry-fe2",
+      "tags": [
+        "tables"
+      ],
+      "type": "RollTable"
+    },
+    {
+      "entity": "Item",
+      "label": "Fragged Empire 2 Items",
+      "name": "Fragged-Empire-2-Items",
+      "path": "./packs/item.db",
+      "system": "foundry-fe2",
+      "tags": [
+        "items"
+      ],
+      "type": "Item"
+    },
+    {
+      "label": "Perícias (Português)",
+      "name": "skills-pt-br",
+      "path": "./packs/skills-pt-br.db",
+      "system": "foundry-fe2",
+      "tags": [
+        "skill",
+        "pt-br"
+      ],
+      "type": "Item"
+    },
+    {
+      "label": "Keywords",
+      "name": "keywords",
+      "path": "./packs/keywords",
+      "system": "foundry-fe2",
+      "tags": [
+        "keyword"
+      ],
+      "type": "Item"
+    }
+  ],
+  "primaryTokenAttribute": "endurance.endurance",
+  "secondaryTokenAttribute": "fate.value",
+  "socket": true,
+  "styles": ["styles/simple.css"],
+  "title": "Fragged Empire 2E",
+  "url": "https://gitlab.com/jkknorr/foundry-fe2",
+  "version": "1.16.0",
+  "background" : "./systems/foundry-fe2/images/ui/FE_Welcome_Page.webp"
+}
